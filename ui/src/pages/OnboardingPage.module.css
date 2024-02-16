@@ -1,0 +1,15 @@
+.root {
+    @apply w-full h-full flex bg-primary;
+}
+
+.inner {
+    @apply mx-auto max-w-7xl w-[60rem] pt-10 sm:pt-24 px-4 sm:px-6 lg:px-8 text-darkest;
+}
+
+.title {
+    @apply text-4xl mb-6 font-semibold text-center;
+}
+
+.explainer {
+    @apply text-lg mb-6 text-justify;
+}

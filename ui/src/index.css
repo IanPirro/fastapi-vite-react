@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply font-sans text-base leading-6 font-normal text-gray-900 antialiased;
+    line-height: 1.5;
+  }
+}
+
+/* 
+  Editor global styles
+*/
+.editor-textUnderline {
+  text-decoration: underline;
+}
+
+.editor-textStrikethrough {
+  text-decoration: line-through;
+}
+
+.editor-textUnderlineStrikethrough {
+  text-decoration: underline line-through;
+}
+
+.editor-textBold.editor-textItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* 
+  Editor toolbar icon styles
+*/
+i.bold {
+  background-image: url(assets/icons/type-bold.svg);
+}
+
+i.italic {
+  background-image: url(assets/icons/type-italic.svg);
+}
+
+i.underline {
+  background-image: url(assets/icons/type-underline.svg);
+}
+
+i.strikethrough {
+  background-image: url(assets/icons/type-strikethrough.svg);
+}
+
+i.subscript {
+  background-image: url(assets/icons/type-subscript.svg);
+}
+
+i.superscript {
+  background-image: url(assets/icons/type-superscript.svg);
+}
+
+i.code {
+  background-image: url(assets/icons/code.svg);
+}
+
+.icon.h1 {
+  background-image: url(assets/icons/type-h1.svg);
+}
+
+.icon.h2 {
+  background-image: url(assets/icons/type-h2.svg);
+}
+
+.icon.h3 {
+  background-image: url(assets/icons/type-h3.svg);
+}
+
+.icon.h4 {
+  background-image: url(assets/icons/type-h4.svg);
+}
+
+.icon.h5 {
+  background-image: url(assets/icons/type-h5.svg);
+}
+
+.icon.h6 {
+  background-image: url(assets/icons/type-h6.svg);
+}

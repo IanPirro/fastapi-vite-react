@@ -1,0 +1,31 @@
+.root {
+    @apply font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer border-none;
+}
+
+.primary {
+    @apply bg-primary text-darkest shadow-sm hover:bg-[#D6F0C7] focus-visible:outline-primary;
+}
+
+.secondary {
+    @apply bg-icon-purple text-darkest shadow-sm hover:bg-[#cabdea] focus-visible:outline-icon-purple;
+}
+
+.disabled {
+    @apply bg-gray-200 text-gray-400 hover:bg-gray-200 shadow-none cursor-not-allowed;
+}
+
+.small {
+    @apply rounded-md px-3 py-2 text-sm shadow-sm;
+}
+
+.large {
+    @apply rounded-md px-5 py-3.5 text-sm shadow-sm;
+}
+
+.link {
+    @apply text-darkest hover:text-gray-600 focus-visible:outline-none focus-visible:text-gray-600 focus-visible:underline               shadow-none;
+}
+
+.full {
+    @apply w-full;
+}

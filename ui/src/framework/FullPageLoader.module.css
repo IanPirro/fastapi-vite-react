@@ -1,0 +1,14 @@
+.root {
+  @apply flex items-center justify-center w-full h-full bg-[#C9EAB5] fixed top-0 right-0 bottom-0 left-0 z-50;
+}
+
+.spin {
+  @apply animate-spin;
+}
+.inner {
+  @apply flex flex-col justify-center items-center space-x-1;
+}
+
+.text {
+  @apply text-white font-medium  text-2xl;
+}
